@@ -1,0 +1,13 @@
+Source: debian-pm-keyring
+Section: misc
+Priority: optional
+Standards-Version: 4.1.3
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Build-Depends: debhelper (>= 11), gnupg
+
+Package: debian-pm-archive-keyring
+Architecture: all
+Depends: ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Recommends: gpgv
+Description: GnuPG keys of the debian-pm test archive

@@ -1,0 +1,5 @@
+debian-pm-keyring (20180408) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Mon, 8 May 2018 14:57:41 +0200
